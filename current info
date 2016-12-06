@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"  href="../../lib/tau/mobile/theme/default/tau.css">
+    <link rel="stylesheet" href="../../css/style.css">
+	<script type="text/javascript" src="../../lib/tau/mobile/js/tau.js" data-build-remove="false"></script>
+</head>
+<body>
+<div class="ui-page" id="list-styles-page">
+	<div class="ui-header" data-position="fixed">
+		<h1>List Styles</h1>
+	</div>
+	<div class="ui-content">
+		<ul class="ui-listview">
+			<li class="ui-group-index">temperature</li>
+		  <li class="ui-li-static">
+				current
+				<span class="li-text-sub">Text</span>
+			</li>
+			<li class="ui-li-static">
+				target
+				<span class="li-text-sub">Text</span>
+			</li>
+			<li class="ui-group-index">humidity</li>
+			<li class="ui-li-static">
+				current
+				<span class="li-text-sub">Text</span>
+			</li>
+			<li class="ui-li-static">
+				target
+				<span class="li-text-sub">Text</span>
+			</li>
+			</ul>
+	</div>
+</div>
+</body>
+</html>
+			
