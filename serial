@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"  href="../../lib/tau/mobile/theme/default/tau.css">
+    <script type="text/javascript" src="../../lib/tau/mobile/js/tau.js" data-build-remove="false"></script>
+    <script src="js/socket.js"></script>
+
+</head>
+<body>
+<div class="ui-page" id="textinput-demo">
+    <div class="ui-header" data-position="fixed">
+        <h1>input you</h1>
+    </div><!-- /header -->
+    <div class="ui-content">
+        <div class="textinput-box">
+            <label for="texttype">id Input:</label>
+            <input type="text" name="id" id="Userid" placeholder="Input text here" data-clear-btn="true"/>
+        </div>
+        <div class="textinput-box">
+            <label for="textarea">password Area:</label>
+             <input type="text" name="password" id="Userpassword" placeholder="Input text here" data-clear-btn="true"/>
+        </div>
+        <div class="textinput-box">
+            <label for="texttype2">serial Input:</label>
+             <input type="text" name="serial" id="Userserial" placeholder="Input text here" data-clear-btn="true"/>
+        </div>
+        <li class="ui-li-static li-has-middle-btn">
+				<button data-inline="true" id="InfoSelect">select</button>
+			</li>
+    </div><!-- /content -->
+		</div><!-- /page -->
+		 
+</body>
+</html>
