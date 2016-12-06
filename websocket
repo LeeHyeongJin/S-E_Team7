@@ -1,0 +1,43 @@
+var webSocketURL="wss://52.78.205.229/helloworld.php:80";  //도메인 주소 넣음
+var webSocket = new WebSocket(webSocketURL);
+
+webSocket.onopen=function(e){
+	console.log('connection open, readyState : ' + e.target.readyState);
+};
+
+webSocket.onmessage = function(e) {
+	console.log('server message : ' + e.data);
+};
+
+webSocket.onerror = function(e) {
+	console.log('error, readyState : ' + e.target.readyState);
+};
+
+webSocket.onclose = function(e) {
+	console.log('current readyState : ' + e.target.readyState);
+};
+
+
+function closeConnection(){
+	if(webSocket.readyState ===1) {
+		webSocket.close();
+	}
+};
+
+//connection
+
+function sendMessage(Userid) {  
+	if(webSocket.readyState === 1){
+		webSocket.send(Userid);
+	}
+};
+
+
+window.onload = function() {
+	var btnSendMessage = document.getElementById('InfoSelect'),
+	btnSendMessageHandler = function (e) {
+		var messageEle = document.getElementById('Userid');
+		sendMessage(messageEle.value);
+	};
+	btnSendMessage.onclick = btnSendMessageHandler;  
+};															//id 값 전송
