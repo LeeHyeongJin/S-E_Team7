@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<link rel="stylesheet" href="./lib/tau/mobile/theme/default/tau.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>smart A/C</title>
+
+	<!-- for compatibility test -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<link rel="apple-touch-icon" href="icon-tizen.png" />
+</head>
+
+<body>
+	<div class="ui-page" id="main">
+		<div class="ui-header" data-position="fixed">
+			<h1>smart A/C</h1>
+		</div>
+		<div class="ui-content">
+			<ul class="ui-listview">DO YOU HAVE ID?</li>
+				<li class="ui-li-anchor"><a href="components/main/serial/dropmenu.html">YES</a></li>
+				<li class="ui-li-anchor"><a href="components/main/serial/serialinput.html">NO</a></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="./lib/tau/mobile/js/tau.js"></script>
+</body>
+</html>
