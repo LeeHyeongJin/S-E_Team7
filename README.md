@@ -1,1 +1,5 @@
-# S-e_Team7
+# SE Team7
+#Smart Air Conditioner Control system
+/*
+Arduino - Server - Tizen
+*/
