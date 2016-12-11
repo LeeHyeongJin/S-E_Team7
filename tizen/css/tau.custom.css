@@ -1,0 +1,180 @@
+/****************************************************************/
+/*              Multiline List Style                            */
+/****************************************************************/
+.ui-listview .li-has-multiline.ui-li-anchor > a,
+.li-has-multiline.ui-li-static {
+    padding-top: 11px;
+    padding-bottom: 38px;
+}
+.li-has-multiline .li-text-sub {
+    top: 39px;
+    left: 16px;
+    line-height: 22px;
+    float: left;
+    text-align: left;
+    height: auto;
+}
+.li-has-multiline .li-text-sub,
+.li-has-multiline .li-text-sub3 {
+    max-width: 80%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    right: auto;
+}
+.li-has-multiline .li-text-sub2,
+.li-has-multiline .li-text-sub3 {
+    position: absolute;
+    font-size: 16px;
+    color: rgba(77, 77, 77, 1);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.li-has-multiline .li-text-sub2 {
+    top: 0;
+    right: 16px;
+    float: right;
+    text-align: right;
+    height: 100%;
+    line-height: 72px;
+}
+.li-has-multiline .li-text-sub2-br {
+    padding-top: 10px;
+    line-height: 27px;
+}
+
+/*************************************************
+                Listview
+**************************************************/
+.li-text-sub {
+    position: absolute;
+    top: 0;
+    right: 16px;
+    height: 100%;
+    line-height: 60px;
+    float: right;
+    text-align: right;
+    font-size: 16px;
+    color: rgba(77, 77, 77, 1);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/****************************************************************/
+/*                   Bubble List                                */
+/****************************************************************/
+.ui-listview .ui-li-bubble-left,
+.ui-listview .ui-li-bubble-right {
+    position: relative;
+    min-width: 26%;
+    max-width: 70%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 4px 8px 8px 8px;
+}
+
+.ui-listview .ui-li-bubble-left .text,
+.ui-listview .ui-li-bubble-right .text {
+    color: #000;
+    font-size: .7rem;
+    word-break: break-word;
+}
+
+.ui-listview .ui-li-bubble-left {
+    margin-left: 20px;
+    margin-right: 30%;
+    float: left;
+}
+
+.ui-listview .ui-li-bubble-right {
+    margin-right: 20px;
+    margin-left: 30%;
+    float: right;
+}
+
+.ui-listview .ui-li-bubble-time {
+    font-size: .5rem;
+    position: absolute;
+    bottom: -12px;
+    color: #fff;
+}
+
+.ui-listview .ui-li-bubble-left .ui-li-bubble-time {
+    text-align: right;
+    float: right;
+    right: 0;
+}
+
+.ui-listview .ui-li-bubble-right .ui-li-bubble-time {
+    text-align: left;
+    float: left;
+    left: 0;
+}
+
+.ui-listview .background {
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.ui-listview .ui-li-bubble-left .background {
+    opacity: .7;
+}
+
+.ui-listview .ui-li-bubble-right .background {
+    opacity: .9;
+}
+
+.ui-listview .tail {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 10px;
+}
+
+.ui-listview .ui-li-bubble-left .tail {
+    left: -10px;
+    background-image: url('../images/tail-left.png');
+    opacity: .7;
+}
+
+.ui-listview .ui-li-bubble-right .tail {
+    right: -10px;
+    background-image: url('../images/tail-right.png');
+    opacity: .9;
+}
+
+.ui-listview .ui-li-bubble-left .warning {
+    right: -18px;
+}
+
+.ui-listview .ui-li-bubble-right .warning {
+    left: -18px;
+}
+
+.warning {
+    background: red;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px !important;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 13px;
+}
+
+/****************************************************************/
+/*                   popup                                      */
+/****************************************************************/
+.ui-popup-text {
+    padding: 0 20px 0 20px;
+}
