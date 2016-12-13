@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/BluetoothChat2" version="2.2.0" viewmodes="maximized">
+    <access origin="*" subdomains="true"/>
+    <tizen:application id="qDQBHvM7PH.BluetoothChat2" package="qDQBHvM7PH" required_version="2.3"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>BluetoothChat2</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:privilege name="http://tizen.org/privilege/bluetooth"/>
+    <tizen:privilege name="http://tizen.org/privilege/bluetooth.admin"/>
+    <tizen:privilege name="http://tizen.org/privilege/bluetooth.gap"/>
+    <tizen:privilege name="http://tizen.org/privilege/bluetooth.spp"/>
+    <tizen:profile name="mobile"/>
+    <tizen:setting screen-orientation="portrait" context-menu="disable" background-support="disable" encryption="disable" install-location="auto"/>
+</widget>
